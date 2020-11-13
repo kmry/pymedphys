@@ -2,8 +2,6 @@
 
 disable =
     bad-continuation,
-    missing-docstring,
-    empty-docstring,
     too-few-public-methods,
     too-many-arguments,
     too-many-locals,
