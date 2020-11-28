@@ -97,11 +97,12 @@ rope = {version = "*", optional = true}  # groups = ["dev"]
 doc8 = {version = "*", optional = true}  # groups = ["dev"]
 tomlkit = {version = "*", optional = true}  # groups = ["dev", "doctests"]
 readme-renderer = {version = "*", optional = true}  # groups = ["dev"]
+pydeps = {version = "*", optional = true}  # groups = ["dev"]
 
 
 [tool.poetry.extras]
 user = ["tqdm", "attrs", "watchdog", "keyring", "packaging", "PyYAML", "requests", "numpy", "matplotlib", "scipy", "pandas", "Pillow", "imageio", "shapely", "pydicom", "pynetdicom", "pylibjpeg-libjpeg", "pymssql", "pylinac", "python_dateutil", "scikit-image", "dbfread", "xmltodict", "streamlit", "timeago"]
-dev = ["tqdm", "attrs", "watchdog", "keyring", "packaging", "PyYAML", "requests", "numpy", "matplotlib", "scipy", "pandas", "Pillow", "imageio", "shapely", "pydicom", "pynetdicom", "pylibjpeg-libjpeg", "pymssql", "pylinac", "python_dateutil", "scikit-image", "dbfread", "xmltodict", "streamlit", "timeago", "jupyter-book", "sphinx-argparse", "sphinxcontrib-napoleon", "pytest", "pytest-sugar", "hypothesis", "psutil", "pylint", "pytest-pylint", "pre-commit", "black", "mypy", "rope", "doc8", "tomlkit", "readme-renderer"]
+dev = ["tqdm", "attrs", "watchdog", "keyring", "packaging", "PyYAML", "requests", "numpy", "matplotlib", "scipy", "pandas", "Pillow", "imageio", "shapely", "pydicom", "pynetdicom", "pylibjpeg-libjpeg", "pymssql", "pylinac", "python_dateutil", "scikit-image", "dbfread", "xmltodict", "streamlit", "timeago", "jupyter-book", "sphinx-argparse", "sphinxcontrib-napoleon", "pytest", "pytest-sugar", "hypothesis", "psutil", "pylint", "pytest-pylint", "pre-commit", "black", "mypy", "rope", "doc8", "tomlkit", "readme-renderer", "pydeps"]
 dicom = ["pydicom", "pynetdicom", "pylibjpeg-libjpeg"]
 ml = ["tensorflow", "torch"]
 doctests = ["tensorflow", "black", "tomlkit"]

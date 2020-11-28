@@ -181,6 +181,7 @@ extras_require = {
         "doc8",
         "tomlkit",
         "readme-renderer",
+        "pydeps",
     ],
     "dicom": ["pydicom>=2.0.0", "pynetdicom", "pylibjpeg-libjpeg"],
     "docs": ["jupyter-book>=0.8.3", "sphinx-argparse", "sphinxcontrib-napoleon"],
